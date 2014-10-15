@@ -18,3 +18,16 @@ It should translate words that begin with a consonant
 It should translate words that begin with a cluster of consonants
 It should translate words that begin with vowels
 Your tests should pass only when the set of criteria mentioned above are successfully met.
+
+*STEPS*
+
+1. Get the first letter to the end of the word.
+2. Add “ay” on after that.
+3. If the word begins with a vowel, skip steps 1 and 2, and just add “way” to the end of the word.
+4. Address the issue of multiple consonants (ie. “ch”, “sh” “dry")
+5. Address special cases like “quick”
+6. Make the app case insensitive
+7. Account for gibberish.
+
+**BONUS**
+Make the app work for full sentences.
