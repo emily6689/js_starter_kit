@@ -12,9 +12,7 @@ For words that begin with vowels, "way" is added at the end of the word. Example
 "egg" → "eggway"
 "inbox" → "inboxway"
 "eight" → "eightway"
-Create a test suite to help you with the implementation of a PigLatinTranslation class. Ensure it has the following test cases:
- 
+
 It should translate words that begin with a consonant
 It should translate words that begin with a cluster of consonants
 It should translate words that begin with vowels
-Your tests should pass only when the set of criteria mentioned above are successfully met.
